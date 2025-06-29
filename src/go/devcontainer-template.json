@@ -1,0 +1,11 @@
+{
+    "id": "go",
+    "version": "1.0.0",
+    "name": "Go dev environment",
+    "description": "Debian + Go",
+    "documentationURL": "https://github.com/Xe/devcontainer-base/tree/main/src/devenv",
+    "licenseURL": "https://github.com/Xe/devcontainer-base/blob/main/LICENSE",
+    "platforms": [
+        "Any"
+    ]
+}
