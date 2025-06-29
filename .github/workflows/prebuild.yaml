@@ -29,6 +29,12 @@ jobs:
         with:
           node-version: latest
 
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
       - name: Log into registry
         if: github.event_name != 'pull_request'
         uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d # v3.0.0
@@ -44,3 +50,4 @@ jobs:
           imageName: ghcr.io/xe/devcontainer-base/pre/${{ matrix.image }}
           cacheFrom: ghcr.io/xe/devcontainer-base/pre/${{ matrix.image }}
           push: always
+          platform: linux/amd64,linux/arm64
