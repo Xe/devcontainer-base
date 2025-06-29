@@ -1,5 +1,5 @@
 {
-	"name": "Go dev environment",
+	"name": "Node dev environment",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
