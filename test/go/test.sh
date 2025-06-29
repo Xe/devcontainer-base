@@ -3,7 +3,7 @@ cd $(dirname "$0")
 source test-utils.sh
 
 # Template specific tests
-check "distro" lsb_release -c
+go run .
 
 # Report result
 reportResults

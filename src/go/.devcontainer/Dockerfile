@@ -1,1 +1,1 @@
-FROM mcr.microsoft.com/devcontainers/base:bookworm
+FROM ghcr.io/xe/devcontainer-base/pre/base
