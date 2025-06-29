@@ -1,0 +1,11 @@
+{
+    "id": "node",
+    "version": "1.0.0",
+    "name": "Node.js dev environment",
+    "description": "Debian + Node.js",
+    "documentationURL": "https://github.com/Xe/devcontainer-base/tree/main/src/node",
+    "licenseURL": "https://github.com/Xe/devcontainer-base/blob/main/LICENSE",
+    "platforms": [
+        "Any"
+    ]
+}
