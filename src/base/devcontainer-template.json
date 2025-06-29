@@ -1,6 +1,6 @@
 {
     "id": "base",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "name": "Base dev environment",
     "description": "Debian base image with Xe customizations",
     "documentationURL": "https://github.com/Xe/devcontainer-base/tree/main/src/devenv",
