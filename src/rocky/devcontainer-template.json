@@ -1,0 +1,11 @@
+{
+    "id": "rocky",
+    "version": "0.1.0",
+    "name": "Rocky",
+    "description": "Rocky Linux 10",
+    "documentationURL": "https://github.com/Xe/devcontainer-base/tree/main/src/rocky",
+    "licenseURL": "https://github.com/Xe/devcontainer-base/blob/main/LICENSE",
+    "platforms": [
+        "Any"
+    ]
+}
